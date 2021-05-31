@@ -16,6 +16,9 @@
         echo $_GET['id'];
     ?>
     </h2>
+    <?php
+    echo file_get_contents("data/".$_GET['id']);
+    ?>
     Write a short pitch about
     what you do and why
     I help you create a home you love, so
