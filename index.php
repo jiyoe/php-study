@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <h1>WEB</h1>
+    <ol>
+        <li><a href="index.php?id=HTML">HTML</a></li>
+        <li><a href="index.php?id=CSS">CSS</a></li>
+        <li><a href="index.php?id=JavaScript">JavaScript</a></li>
+    </ol>
+    <h2>
+    <?php 
+        echo $_GET['id'];
+    ?>
+    </h2>
+    Write a short pitch about
+    what you do and why
+    I help you create a home you love, so
+    you can relax and refresh in a pure
+    and simple space.
+</body>
+</html> 
