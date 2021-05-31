@@ -13,5 +13,13 @@
     and simple space.";
     echo $str;
     ?>
+    <h2>strlen()</h2>
+    <?php 
+    echo strlen($str);
+    ?>
+    <h2>nl2br</h2>
+    <?php 
+    echo nl2br($str);
+    ?>
     </body>
 </html> 
